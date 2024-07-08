@@ -11,6 +11,7 @@ function handleInput() {
 
   if (searchTerm) {
     showLoader();
+    console.log("prikaz rezultat");
     fetchResults(searchTerm);
   } else {
     resultsContainer.innerHTML = "";
