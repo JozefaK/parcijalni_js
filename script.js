@@ -20,9 +20,11 @@ function handleInput() {
 
 function showLoader() {
   loader.classList.remove("hidden");
+  loader.style.display = "block";
 }
 
 function hideLoader() {
+  loader.style.display = "none";
   loader.classList.add("hidden");
 }
 
